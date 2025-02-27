@@ -16,3 +16,11 @@ def print_my_text(text, repeat=1):
         print(text)
 
 print_my_text('Hello, world!', 6)
+
+#function to give me a random number between 1 and 6 called dice_roll
+import random
+
+def dice_roll():
+    return random.randint(1, 6)
+
+print(dice_roll())
